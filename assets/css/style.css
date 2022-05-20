@@ -1,0 +1,229 @@
+* {
+   box-sizing: border-box;
+}
+
+aside {
+   float: right;
+   padding-left: 20px;
+   width: 25%;
+}
+
+.blood {
+   text-align: left;
+}
+
+body {
+   font-family: 'Quicksand', sans-serif;
+   margin: 0; /*membuat tidak ada simbol scroll*/
+   padding: 0;
+}
+
+.box {
+   transition: 1s;
+}
+
+.box:hover {
+   transform: scale(1.1);
+}
+
+.card {
+   border-radius: 5px;
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+   margin-top: 5px;
+   padding: 5px;
+}
+
+.content {
+   float: left;
+   width: 75%;
+}
+
+.div-content {
+   margin-top: 0;
+   text-align: center;
+}
+
+.div-box {
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /*hanya ini bisa diganti*/
+   border-radius: 5px;
+   box-sizing: border-box;
+   /*border: solid 1px;*/
+   padding: 25px;
+   width:  100%; 
+}
+
+form div {
+   margin-bottom: 15px;
+}
+
+form label {
+   display: block;
+   font-size: 20px;
+}
+
+form input {
+   border: solid 1px;
+   box-sizing: border-box;
+   font-size: 20px;
+   line-height: 1.8;
+   width: 100%;
+}
+
+header {
+  display: inline;
+}
+
+h2 {
+   color: #848DE8;
+}
+
+/*.jumbotron {
+   font-size: 20px;
+   padding: 60px;
+   background-color: #00c8eb;
+   text-align: center;
+   color: white;
+}*/
+
+.kartu {
+    border: 1px;
+    border-color: #848DE8;
+    border-style: solid; 
+    margin-bottom: 10px;
+}
+
+.ket {
+   font-weight: bold;
+}
+
+main {
+   overflow: auto;
+   padding: 20px; 
+}
+
+.mainn {
+   align-items:  center;
+   display:  flex;
+   height: 100vh;
+   justify-content: center;
+   
+}
+/*nav {
+   background-color: #313B64;
+   padding: 5px;
+   position: sticky;
+   top: 0;
+   z-index: 10;
+}
+
+nav a {
+   color: white;
+   font-size: 17px;
+   font-weight: 400;
+   text-decoration: none;
+}
+
+nav a:hover {
+   font-weight: bold;
+}
+
+nav li {
+   display: inline;
+   list-style-type: none;
+   margin-right: 20px;
+}*/
+
+/*pre {
+   font-family: 'Quicksand', sans-serif;
+   font-size: 15px;
+}*/
+
+.profile header {
+   display: block;
+   text-align: center;
+}
+
+.profile img {
+   width: 200px;
+   /*height: 250px;*/
+}
+
+.sheet {
+   border-collapse: collapse; 
+   text-align: center;
+   width: 100%;
+}
+
+.sheettabel {
+   border-collapse: collapse; 
+   text-align: center;
+   width: 100%;
+}
+
+.sheettabel th,.sheettabel tr,.sheettabel td {
+   border: 1px solid #313B64;
+}
+
+.tgl::first-letter {
+   color: saddlebrown;
+   font-size: 32px;
+   font-weight: bold;
+}
+
+@media screen and (max-width: 300px) {
+  .content {
+      font-size: 5px;
+  }
+
+  /* nav {
+      padding: 5px;
+   }
+
+   nav a {
+      font-size: 12px;
+      font-weight: 400;
+   }
+
+   nav li {
+      margin-right: 10px;
+   }*/
+
+   /*pre{
+       font-size: 9px;
+  }*/
+
+   /*table{
+      font-size: 10px;
+   }*/
+   
+   .hdua {
+      font-size: 20px ;
+   }
+
+   .htiga {
+      font-size: 10px ;
+   }
+
+   .paragraf{
+      font-size: 10px ;
+   }
+}
+
+@media screen and (max-width: 550px) {
+   /*nav li {
+      margin-right: 10px;
+   }
+
+   nav {
+      padding: 2px;
+   }*/
+}
+
+@media screen and (max-width: 1000px) {
+   .content,
+   aside {
+      padding: 0;
+      width: 100%;
+   }
+}
+
